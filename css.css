@@ -91,7 +91,6 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    animation: rotate 2s linear infinite;
 }
 
 .container::after{
@@ -114,4 +113,13 @@ td a {
 td a:hover {
     color: #ad1646;
     transition: .5s;
+}
+
+
+
+@media (min-width: 500px) and (max-width: 1366px){
+    
+    .container{
+        margin-top: 10em;
+    }
 }
